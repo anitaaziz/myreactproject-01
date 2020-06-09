@@ -1,10 +1,9 @@
 import React from 'react';
-import ReactDom from 'react-dom';
+import ReactDOM from 'react-dom';
 import './index.css';
 
 function Hi() {
-  return
-      <div className = "root">
+  return <div className = 'project'>
         <strong>Hello Anita</strong>
         <p>JSX is a syntax react supports, its simple HTML but at the end a complier convert this syntax in JS in the backgroung</p>
         <ul>
@@ -21,4 +20,4 @@ ReactDOM.render(<Hi/>, document.querySelector('#root'));
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+//serviceWorker.unregister();

@@ -12,11 +12,11 @@ code {
     monospace;
 }
 
-.root {
+.project {
   background-color: antiquewhite;
 }
 
-.root ul {
+.project ul {
   color: blueviolet;
   font-weight: 100;
 }
